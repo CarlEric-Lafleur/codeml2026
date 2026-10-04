@@ -1,0 +1,22 @@
+# environment
+.venv/
+venv/
+
+# caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# per-run outputs (the ledger is committed)
+runs/*
+!runs/ledger.csv
+
+# editor and OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# shell crash dumps
+*.stackdump
